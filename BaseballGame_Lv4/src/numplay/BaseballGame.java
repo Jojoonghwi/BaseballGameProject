@@ -14,7 +14,6 @@ public class BaseballGame {
     int ball = 0;
     int out = 0;
 
-
     public void setCorrectNum(ArrayList CorrectNumList) {
         this.CorrectNumList = CorrectNumList;
     }
@@ -43,9 +42,6 @@ public class BaseballGame {
             for (int i = 0; i < CorrectNumList.size(); i++) {
                 if (answerNumList.get(i).equals(CorrectNumList.get(i))) {
                     strike++;
-//                    if (strike == 3) {
-//                        break;
-//                    }
                 }
 
                 for (int j = 0; j < CorrectNumList.size(); j++) {
