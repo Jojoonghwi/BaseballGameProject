@@ -38,8 +38,8 @@ public class Main {
                 Collections.shuffle(CorrectNumList);//리스트 섞기
                 CorrectNumList.subList(gameLevel, 9).clear();//리스트 주소 gameLevel 값 만큼 남기고 삭제
 
-//                //테스트
-//                System.out.println(CorrectNumList);
+                //테스트
+                System.out.println(CorrectNumList);
 
                 //정답(CorrectNumList)전달하고 게임 시작
                 BaseballGame.setCorrectNum(CorrectNumList);
@@ -48,7 +48,8 @@ public class Main {
 
                 gameCountIndex++;
 
-            } else if (gameStartNum.equals("2")) {
+            }
+            else if (gameStartNum.equals("2")) {
                 System.out.println("<게임 기록 보기>");
                 if (gameCountList.isEmpty()) {
                     System.out.println("게임 기록이 없습니다");
@@ -57,10 +58,12 @@ public class Main {
                     System.out.println(i + "번째 게임 : 시도 횟수 -- " + gameCountList.get(i));
                 }
 
-            } else if (gameStartNum.equals("3")) {
+            }
+            else if (gameStartNum.equals("3")) {
                 System.out.println("=====숫자 야구 게임을 종료합니다=====");
                 break;
-            } else {
+            }
+            else {
                 System.out.println("올바른 숫자를 입력해주세요!");
             }
         }

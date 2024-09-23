@@ -25,7 +25,7 @@ public class BaseballGame {
             strike=0;
             ball=0;
             //정답과 비교할 숫자 입력
-            System.out.print("0을 제외한 서로 다른 3자리 숫자를 입력하세요 : ");
+            System.out.print("0을 제외한 서로 다른 " + gameLevel +"자리 숫자를 입력하세요 : ");
             String answerNumStr = sc.nextLine();
 
             //비교 숫자 리스트 생성
