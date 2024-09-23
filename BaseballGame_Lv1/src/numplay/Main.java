@@ -19,6 +19,5 @@ public class Main {
         //정답(CorrectNumList)전달하고 게임 시작
         BaseballGame.setCorrectNum(CorrectNumList);
         BaseballGame.play();
-
     }
 }

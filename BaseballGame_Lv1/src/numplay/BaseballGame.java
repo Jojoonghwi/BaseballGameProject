@@ -37,6 +37,7 @@ public class BaseballGame {
                 continue loopOut;
             }
 
+            //strike or ball 체크
             for (int i = 0; i < CorrectNumList.size(); i++) {
                 if (answerNumList.get(i).equals(CorrectNumList.get(i))) {
                     strike++;

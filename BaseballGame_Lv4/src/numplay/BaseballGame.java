@@ -22,7 +22,6 @@ public class BaseballGame {
         int tryCount=0;
         loopOut:
         while (true) {
-
             strike=0;
             ball=0;
             //정답과 비교할 숫자 입력
