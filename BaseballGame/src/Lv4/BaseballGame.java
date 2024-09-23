@@ -78,7 +78,7 @@ public class BaseballGame {
                 }
             }
         }
-        //3자리 아닐 경우
+        //gameLevel 자리 아닐 경우
         if (!(answerNumStr.length() == gameLevel)) {
             System.out.println("올바르지 않은 입력값입니다.");
             return false;

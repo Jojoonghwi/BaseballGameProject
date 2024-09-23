@@ -39,7 +39,7 @@ public class Main {
                 CorrectNumList.subList(gameLevel, 9).clear();//리스트 주소 gameLevel 값 만큼 남기고 삭제
 
                 //테스트
-                System.out.println(CorrectNumList);
+                //System.out.println(CorrectNumList);
 
                 //정답(CorrectNumList)전달하고 게임 시작
                 BaseballGame.setCorrectNum(CorrectNumList);
@@ -55,7 +55,7 @@ public class Main {
                     System.out.println("게임 기록이 없습니다");
                 }
                 for (int i = 0; i < gameCountList.size(); i++) {
-                    System.out.println(i + "번째 게임 : 시도 횟수 -- " + gameCountList.get(i));
+                    System.out.println(i+1 + "번째 게임 : 시도 횟수 -- " + gameCountList.get(i));
                 }
 
             }
